@@ -65,8 +65,8 @@ def top_countries_by_cases(df, top_n=10):
 
 if __name__ == "__main__":
     df = load_data()
-    #plot_greece(df)
-    #compare_countries(df)
+    plot_greece(df)
+    compare_countries(df)
     top_countries_by_cases(df, top_n=10)
 
 
