@@ -1,0 +1,13 @@
+1. Clone the repository:
+   git clone https://github.com/katerinabouzouki/COVID-19-Data-Analysis.git
+
+2. Create a virtual environment:
+   python -m venv venv
+   venv\Scripts\activate 
+
+3. Install required packages:
+   pip install pandas matplotlib seaborn
+
+4. Run the analysis script:
+   python clean_data.py
+
